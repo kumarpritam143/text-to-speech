@@ -11,7 +11,7 @@ st.title("🎙️ AI Voice Generator (MongoDB Powered)")
 # =========================
 # MONGO CONFIG
 # =========================
-MONGO_URI="mongodb+srv://kumardaspritam972_db_user:x4mLbdrWdZigu952@ai-voice-system.xm0qrh1.mongodb.net/?appName=ai-voice-system"
+MONGO_URI = st.secrets["MONGO_URI"]
 
 import certifi
 from pymongo import MongoClient
