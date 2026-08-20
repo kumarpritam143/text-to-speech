@@ -1,7 +1,7 @@
 import json
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb+srv://kumardaspritam972_db_user:pk4suXsyOMGYxfiS@ai-voice-system.xm0qrh1.mongodb.net/?appName=ai-voice-system"
+MONGO_URI="mongodb+srv://kumardaspritam972_db_user:x4mLbdrWdZigu952@ai-voice-system.xm0qrh1.mongodb.net/?appName=ai-voice-system"
 
 JSON_PATH = r"C:\Users\91628\Dropbox\PC\Downloads\Realtime-Streaming-website-main\Realtime-Streaming-website-main\elevenlabs_voices.json"
 
