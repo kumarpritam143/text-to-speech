@@ -10,10 +10,7 @@ api_keys_col = db["api_keys"]
 # OPTIONAL: purane keys hata do (first time clean insert)
 api_keys_col.delete_many({})
 
-api_keys = [
-    "sk_eb5431472cbdd8b94851db4180cf877e74592c37fd71064d",
-    "sk_863ff38c6d50dc136bfb6e32a35da2c502fff64df6e29bcd"
-]
+
 
 docs = []
 
